@@ -18,7 +18,7 @@ export const TodoList = () => {
       <input
         value={text}
         onChange={(e) => setText(e.target.value)}
-        placeholder="Add Todo"
+        placeholder="Add Todo item"
       />
       <button onClick={handleAdd}>Add</button>
       <ul>
